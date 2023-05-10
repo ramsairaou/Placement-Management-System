@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  thead{
+    text-align: center;
+    text-align-last: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 7px;
+    background-color: cadetblue;
+    padding-right: 167px;
+    z-index: 1;
+    transform: translateY(-2px);
+  }
+  
+  .navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+  
+  }
+  
+  .navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  
+  .navbar ul li:hover::after {
+    width: 100%;
+  }
+  
+  .content {
+    padding-top: 200px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    color: #fff;
+  
+  }
+  
+  .content h1 {
+    font-size: 50px;
+  
+  }
+  
+  .content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 10px;
+  
+  }
+  th,
+td {
+  background-color: rgb(255, 255, 255);
+  padding: 7px;
+
+
+}
+table {
+   
+    max-height: 20px;
+    text-align: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  }
+  
+  table td {
+    text-align: center;
+    text-align-last: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: 7px;
+  
+   
+  
+  }
+  
+  th {
+    background-color: cadetblue;
+    width: 20px;
+   
+  }
+  
+  button {
+    border: none;
+   
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px 2px rgb(219, 213, 213);
+    padding: 8px;
+    min-height: 20px;
+    min-width: 100px;
+    font-size: small;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    
+  }
+  
+  .deletee {
+    margin-left: 0%;
+    background-color: rgb(245, 53, 53);
+    position: relative;
+    color: white; 
+    
+  }
+  .update{
+    background-color: darkslategrey;
+    color: white;
+  }
+  .viewstudent{
+    background-color: rgb(196, 85, 85);
+    color: white;
+  }
+  .stuaddlist button{
+   
+    position: relative;
+    left:330px;
+    top:10px;
+    margin-left: 10px;
+    background-color: transparent;
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  .companylist button{
+    position: relative;
+    left:317px;
+    top:10px;
+    margin-left: 10px;
+    background-color: transparent;
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    color: #fff;
+  }
+.traininglist button{
+    position: relative;
+    left:400px;
+    top:10px;
+    margin-left: 10px;
+    background-color: transparent;
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  .examlist button{
+    position: relative;
+    left:425px;
+    top:10px;
+    margin-left: 10px;
+    background-color: transparent;
+    font-size: medium;
+    font-style: oblique;
+    font-family: sans-serif;
+    color: #fff;
+  }
+  button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  .backbutton button{
+    position: relative;
+    left:120px;
+    color: white;
+    background-color: rgb(49, 117, 49);
+    padding: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width:50px;
+    border:none;
+    box-shadow: none;
+  }
+
+.list{
+  height: 298px;
+  overflow-Y: auto;
+  width: fit-content;
+  padding: 0 10px;
+  border-radius: 3px;
+ 
+  
+  margin: auto;
+}
+

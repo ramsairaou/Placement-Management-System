@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/background.jpg);
+    background-size: cover;
+   
+}
+
+.container {
+position: relative;
+top:30px;
+bottom: 10px;
+    width: 650px;
+      
+    background: rgba(0, 0, 0, 0.5);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: insert -2px 2px 2px white;
+    border:solid 1px white;
+
+
+}
+
+.form-title {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+    font-family: papyrus,fantasy;
+}
+
+.main-user-info {
+
+    flex-wrap: warp;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+input[type=text],input[type=phone],input[type=date],
+select {
+    width: 100%;
+    padding: 8px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+ .submit{
+    width: 100%;
+    background-color: #04AA6D;
+    color: white;
+    padding: 8px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+label {
+    width: 95%;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 5px 0;
+    text-transform: uppercase;
+
+}
+.submit:hover {
+    opacity:1;
+  }
+
+  input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  input[type=date]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  input[type=phone]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+
+  a {
+    
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: rgb(33, 99, 33);
+    color: rgb(255, 255, 255);
+  }
+  
+  .previous {
+    
+    background-color: rgb(41, 128, 41);
+    color: white;
+  }
+  
+    
